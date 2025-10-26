@@ -33,21 +33,6 @@ env/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# data/
-# *.csv
-# *.xlsx
-# *.xls
-# *.json
-# *.parquet
-
-# Output files
-outputs/
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.svg
-
 # IDE
 .vscode/
 .idea/
