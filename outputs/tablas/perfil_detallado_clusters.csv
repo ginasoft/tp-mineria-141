@@ -1,0 +1,38 @@
+﻿Cluster,Variable,Ranking,Categoría,Cantidad,Porcentaje
+0,TIPO DE CONSULTA,1,Informe,5782,100.0%
+0,CONSULTANTE,1,Consumidor,1503,26.0%
+0,CONSULTANTE,2,Madre,1086,18.8%
+0,CONSULTANTE,3,Otro,718,12.4%
+0,MOTIVO DE CONSULTA,1,nan,5782,100.0%
+0,TRATAMIENTO,1,nan,5782,100.0%
+0,FRANJA_HORARIA,1,Tarde,2346,40.6%
+0,FRANJA_HORARIA,2,Mañana,1595,27.6%
+0,FRANJA_HORARIA,3,Noche,1576,27.3%
+1,TIPO DE CONSULTA,1,Consulta Indirecta,1855,58.4%
+1,TIPO DE CONSULTA,2,Consulta Directa,1322,41.6%
+1,CONSULTANTE,1,Consumidor,1322,41.6%
+1,CONSULTANTE,2,Hermano,451,14.2%
+1,CONSULTANTE,3,Madre,427,13.4%
+1,MOTIVO DE CONSULTA,1,Transtornos crónicos,814,25.6%
+1,MOTIVO DE CONSULTA,2,Crisis en situación de consumo,588,18.5%
+1,MOTIVO DE CONSULTA,3,Inquietudes por el tipo de vida,468,14.7%
+1,TRATAMIENTO,1,Nunca estuvo,1259,39.6%
+1,TRATAMIENTO,2,Está/Estuvo en tratamiento,1046,32.9%
+1,TRATAMIENTO,3,Tratamiento por consumo,326,10.3%
+1,FRANJA_HORARIA,1,Tarde,1365,43.0%
+1,FRANJA_HORARIA,2,Mañana,877,27.6%
+1,FRANJA_HORARIA,3,Noche,749,23.6%
+2,TIPO DE CONSULTA,1,Consulta Indirecta,4169,81.2%
+2,TIPO DE CONSULTA,2,Consulta Directa,963,18.8%
+2,CONSULTANTE,1,Madre,1851,36.1%
+2,CONSULTANTE,2,Consumidor,963,18.8%
+2,CONSULTANTE,3,Hermano,751,14.6%
+2,MOTIVO DE CONSULTA,1,Inquietudes por el tipo de vida,1030,20.1%
+2,MOTIVO DE CONSULTA,2,Transtornos crónicos,882,17.2%
+2,MOTIVO DE CONSULTA,3,Crisis en situación de consumo,699,13.6%
+2,TRATAMIENTO,1,Nunca estuvo,2671,52.0%
+2,TRATAMIENTO,2,Está/Estuvo en tratamiento,1196,23.3%
+2,TRATAMIENTO,3,Sin definir,553,10.8%
+2,FRANJA_HORARIA,1,Tarde,2362,46.0%
+2,FRANJA_HORARIA,2,Mañana,1388,27.0%
+2,FRANJA_HORARIA,3,Noche,1230,24.0%

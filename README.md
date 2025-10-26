@@ -1,8 +1,8 @@
 # Análisis de Clustering - Línea 141 SEDRONAR
 
-**Materia:** Análisis de la Información y la Decisión
-**Carrera:** Ingeniería en Inteligencia Artificial – Universidad de Palermo
-**Período de Datos:** Primer Semestre 2025
+**Materia:** Análisis de la Información y la Decisión  
+**Carrera:** Ingeniería en Inteligencia Artificial – Universidad de Palermo  
+**Período de Datos:** Primer Semestre 2025  
 
 ---
 
@@ -14,107 +14,107 @@ Se aplicó el algoritmo **K-Means** sobre **14.091 llamadas efectivas**, identif
 
 ### Objetivos
 
-- Identificar **perfiles diferenciados** de consultantes mediante clustering
-- Analizar **patrones demográficos, geográficos y temporales** de las consultas
-- Caracterizar tipos de crisis y necesidades específicas por segmento
-- Generar **recomendaciones basadas en evidencia** para optimizar el servicio
+- Identificar **perfiles diferenciados** de consultantes mediante clustering  
+- Analizar **patrones demográficos, geográficos y temporales** de las consultas  
+- Caracterizar tipos de crisis y necesidades específicas por segmento  
+- Generar **recomendaciones basadas en evidencia** para optimizar el servicio  
 
 ### Resultados Clave
 
-✅ **3 clusters identificados** con perfiles distintos
-✅ **Silhouette Score: 0.252** (tras optimización dimensional 109→67 features)
-✅ **14.091 llamadas efectivas** analizadas (71.2% del total)
-✅ **11 visualizaciones profesionales** generadas
-✅ **Pipeline reproducible** con random_state=42
+✅ **3 clusters identificados** con perfiles distintos  
+✅ **Silhouette Score: 0.252** (tras optimización dimensional 109→67 features)  
+✅ **14.091 llamadas efectivas** analizadas (71.2% del total)  
+✅ **11 visualizaciones profesionales** generadas  
+✅ **Pipeline reproducible** con random_state=42  
 
 ---
 
 ## Clusters Identificados
 
-### 🔹 Cluster 0 - Consultas Informativas (41.0%)
-**5.782 llamadas** - Pedidos de información general sin caso específico de consumo
+### 🔹 Cluster 0 - Consultas Informativas (41.0%)  
+**5.782 llamadas** - Pedidos de información general sin caso específico de consumo  
 
 **Características:**
-- 100% tipo "Informe" - no refieren a una persona con consumo
-- Sin datos demográficos del consumidor (edad, género, motivo)
-- Consultantes variados: Consumidor (26%), Madre (19%), Otros (12%)
-- Horario: Principalmente tarde (40%), seguido de mañana (28%)
+- 100% tipo "Informe" - no refieren a una persona con consumo  
+- Sin datos demográficos del consumidor (edad, género, motivo)  
+- Consultantes variados: Consumidor (26%), Madre (19%), Otros (12%)  
+- Horario: Principalmente tarde (40%), seguido de mañana (28%)  
 
 **Recomendaciones:**
-- ✅ Implementar chatbot para consultas frecuentes
-- ✅ Crear FAQs y material educativo descargable
-- ✅ Derivación automática a recursos según región
-- ✅ Campañas de difusión sobre servicios disponibles
+- ✅ Implementar chatbot para consultas frecuentes  
+- ✅ Crear FAQs y material educativo descargable  
+- ✅ Derivación automática a recursos según región  
+- ✅ Campañas de difusión sobre servicios disponibles  
 
 ---
 
 ### 🔹 Cluster 1 - Consumidores Adultos Crónicos (22.5%)
-**3.177 llamadas** - Adultos de mediana edad con consumo prolongado
+**3.177 llamadas** - Adultos de mediana edad con consumo prolongado  
 
 **Características:**
-- **Edad promedio:** 42.5 años (mediana: 40 años)
-- **Ellos mismos llaman** - principal consultante: Consumidor (38%)
-- **Tiempo de consumo:** >10 años en la mayoría de casos
-- **Antecedentes:** 32% ya estuvo en tratamiento, 37% nunca estuvo
-- **Motivos principales:** Trastornos crónicos (24%), Crisis (17%), Recaídas, Inquietudes por tipo de vida
+- **Edad promedio:** 42.5 años (mediana: 40 años)  
+- **Ellos mismos llaman** - principal consultante: Consumidor (38%)  
+- **Tiempo de consumo:** >10 años en la mayoría de casos  
+- **Antecedentes:** 32% ya estuvo en tratamiento, 37% nunca estuvo  
+- **Motivos principales:** Trastornos crónicos (24%), Crisis (17%), Recaídas, Inquietudes por tipo de vida  
 
 **Recomendaciones:**
-- ✅ Programas de seguimiento prolongado
-- ✅ Grupos de apoyo para prevención de recaídas
-- ✅ Articulación con servicios de salud mental
-- ✅ Estrategias de adherencia a tratamientos de largo plazo
+- ✅ Programas de seguimiento prolongado  
+- ✅ Grupos de apoyo para prevención de recaídas  
+- ✅ Articulación con servicios de salud mental  
+- ✅ Estrategias de adherencia a tratamientos de largo plazo  
 
 ---
 
 ### 🔹 Cluster 2 - Jóvenes con Familias Preocupadas (36.4%)
-**5.132 llamadas** - Jóvenes adultos con detección familiar temprana
+**5.132 llamadas** - Jóvenes adultos con detección familiar temprana  
 
 **Características:**
-- **Edad promedio:** 26.0 años (mediana: 26 años)
-- **MADRES** son las principales consultantes (33% del cluster)
-- **Consultas mayormente indirectas** (80%)
-- **Tratamiento:** 52% nunca estuvo - **primeros contactos críticos**
-- **Motivos principales:** Inquietudes por tipo de vida (19%), Trastornos (16%), Crisis (13%)
+- **Edad promedio:** 26.0 años (mediana: 26 años)  
+- **MADRES** son las principales consultantes (33% del cluster)  
+- **Consultas mayormente indirectas** (80%)  
+- **Tratamiento:** 52% nunca estuvo - **primeros contactos críticos**  
+- **Motivos principales:** Inquietudes por tipo de vida (19%), Trastornos (16%), Crisis (13%)  
 
 **Recomendaciones:**
-- ✅ Protocolo de derivación urgente - ventana de oportunidad
-- ✅ Talleres de orientación para padres y familiares
-- ✅ Trabajo en detección temprana y prevención secundaria
-- ✅ Fortalecimiento del rol familiar en el proceso terapéutico
+- ✅ Protocolo de derivación urgente - ventana de oportunidad  
+- ✅ Talleres de orientación para padres y familiares  
+- ✅ Trabajo en detección temprana y prevención secundaria  
+- ✅ Fortalecimiento del rol familiar en el proceso terapéutico  
 
 ---
 
 ## Dataset
 
-- **Fuente:** [SEDRONAR - Base Línea 141](https://datos.gob.ar/dataset/sedronar-base-linea-141/archivo/sedronar_12.5)
-- **Período:** Enero - Junio 2025
-- **Total de registros:** 19.795 llamadas
-  - **Efectivas:** 14.091 (71.2%) - usadas para clustering
-  - **No efectivas:** 5.704 (28.8%) - análisis de eficiencia del servicio
+- **Fuente:** [SEDRONAR - Base Línea 141](https://datos.gob.ar/dataset/sedronar-base-linea-141/archivo/sedronar_12.5)  
+- **Período:** Enero - Junio 2025  
+- **Total de registros:** 19.795 llamadas  
+  - **Efectivas:** 14.091 (71.2%) - usadas para clustering  
+  - **No efectivas:** 5.704 (28.8%) - análisis de eficiencia del servicio  
 
 ### Variables Principales
 
-- **Demográficas:** Edad, género, localidad y provincia del consumidor y consultante
-- **Contextuales:** Tipo de consulta (Directa/Indirecta/Informe), motivo de consulta, relación con consumidor
-- **Temporales:** Fecha, día de la semana, hora, franja horaria
-- **Clínicas:** Tiempo de consumo, antecedentes de tratamiento, tipo de crisis
+- **Demográficas:** Edad, género, localidad y provincia del consumidor y consultante  
+- **Contextuales:** Tipo de consulta (Directa/Indirecta/Informe), motivo de consulta, relación con consumidor  
+- **Temporales:** Fecha, día de la semana, hora, franja horaria  
+- **Clínicas:** Tiempo de consumo, antecedentes de tratamiento, tipo de crisis  
 
 ### Distribución Geográfica (según estadísticas oficiales)
 
-- **Buenos Aires:** ~58% de las llamadas
-- **CABA:** ~11-13%
-- **Córdoba:** ~5%
-- **Santa Fe:** ~6%
-- **Mendoza:** ~3%
-- **Resto del país:** ~11-14%
+- **Buenos Aires:** ~58% de las llamadas  
+- **CABA:** ~11-13%  
+- **Córdoba:** ~5%  
+- **Santa Fe:** ~6%  
+- **Mendoza:** ~3%  
+- **Resto del país:** ~11-14%  
 
 ### Calidad de los Datos
 
-✅ Variables bien definidas y estandarizadas
-✅ Consistencia con estadísticas oficiales publicadas por SEDRONAR
-✅ Distribución geográfica alineada con reportes mensuales
-⚠️ Valores faltantes esperables según tipo de llamada (no implican error de calidad)
-✅ Registros completos para variables críticas (fecha, tipo de consulta, modalidad)
+✅ Variables bien definidas y estandarizadas  
+✅ Consistencia con estadísticas oficiales publicadas por SEDRONAR  
+✅ Distribución geográfica alineada con reportes mensuales  
+⚠️ Valores faltantes esperables según tipo de llamada (no implican error de calidad)  
+✅ Registros completos para variables críticas (fecha, tipo de consulta, modalidad)  
 
 ---
 
@@ -411,21 +411,6 @@ jupyter notebook notebooks/01_clustering_linea141.ipynb
 **Descargas:**
 - [📄 Presentación en PDF](docs/presentacion_clustering_linea141.pdf)
 - [📊 Presentación en PowerPoint](docs/presentacion_clustering_linea141.pptx)
-
-### Estructura de Slides Recomendada
-
-1. **Introducción al dataset** - Segmentación 19.795 → 14.091 efectivas
-2. **Metodología** - Optimización V1→V2 (mejora 47%)
-3. **Resumen de los 3 clusters** - Tamaños y características
-4. **Caracterización por tipo de consulta** - Directa/Indirecta/Informe
-5. **Perfil demográfico** - Edad (42 vs 26 años)
-6. **¿Quién consulta?** - Consultante (Madres 33% en Cluster 2)
-7. **Motivos de consulta** - Top 5 por cluster
-8. **Antecedentes de tratamiento** - Nunca estuvo vs Recaídas
-9. **Patrones temporales** - Franja horaria consistente
-10. **Llamadas no efectivas** - Oportunidad de mejora (28.8%)
-11. **Perfiles detallados** - Descripción completa de cada cluster
-12. **Conclusiones y recomendaciones** - Acciones estratégicas
 
 ---
 
