@@ -463,7 +463,6 @@ jupyter notebook notebooks/01_clustering_linea141.ipynb
 
 ## Autor
 
-**[Tu Nombre Completo]**
 Natalia G. Cuellas
 
 ---
